@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Mi Amor ❤️</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Música de fondo -->
+    <audio id="music" loop>
+        <source src="cancion.mp3" type="audio/mp3">
+        Tu navegador no soporta audio.
+    </audio>
+
+    <div class="container">
+        <h1>¿Quieres ser mi San Valentín? 💖</h1>
+        <img src="https://media.giphy.com/media/l3vR6asGVU6UoyKtW/giphy.gif" alt="Amor" class="gif">
+        
+        <div class="buttons">
+            <button id="yesBtn" onclick="showLove()">¡Sí, mi amor! ❤️</button>
+            <button id="noBtn" onmouseover="moveNoBtn()">No ❌</button>
+        </div>
+
+        <p id="message" class="hidden">¡Sabía que dirías que sí! Te amo muchísimo 💕💋</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
